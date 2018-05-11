@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>Smart Booking</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../favicon.ico">
+
+	<!-- Web Fonts -->
+	<link rel="stylesheet" href="//fonts.b.com/css?family=Open+Sans:400,300,700&subset=cyrillic,latin">
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="assets/css/blocks.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="assets/plugins/animate.css">
+	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css">
+	<link rel="stylesheet" href="assets/plugins/owl-carousel2/assets/owl.carousel.css">
+	<link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
+	<link rel="stylesheet" href="assets/plugins/master-slider/masterslider/style/masterslider.css">
+	<link rel="stylesheet" href="assets/plugins/master-slider/u-styles/testimonials-1.css">
+	<link rel="stylesheet" href="assets/plugins/master-slider/u-styles/promo-1.css">
+
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="assets/css/travel.style.css">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+<main class="wrapper">
+	<!--=== Header ===-->
+	<nav class="one-page-header navbar navbar-default" data-role="navigation">
+		<div class="container">
+			<div class="menu-container page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#body" style="padding-top:20px;color:#000;">
+					SmartBooking
+				</a>
+			</div>
+
+			
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!--=== End Header ===-->
+    <!-- Search Tours Section -->
+	<div class="search-tours g-heading-v8">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 search-tours-title-wrapper">
+					<div class="container">
+						<h2><em class="block-name">SmartBooking</em><br>Please Login</h2>
+					</div>
+				</div>
+				<div class="col-md-9 search-tours-col-bg-default">
+					<div class="container">
+						<form action="AddHotelServlet" method="POST" class="sky-form clearfix">
+							<div class="col-md-12">
+								<label class="label">Country</label>
+								<label class="input">
+									
+									<input type="text" name="country" id="" >
+								</label>
+							</div>
+							<div class="col-md-12">
+								<label class="label">City</label>
+								<label class="input">
+									
+									<input type="text" name="city" id="" >
+								</label>
+							</div>
+							
+							<div class="col-md-12">
+								<label class="label">Name</label>
+								<label class="input">
+									
+									<input type="text" name="hotelName" id="">
+								</label>
+							</div>
+							<div class="col-md-12">
+								<label class="label">Rating</label>
+								<label class="input">
+									
+									<input type="text" name="rating" id="" >
+								</label>
+							</div>
+							<div class="col-md-12">
+								<label class="label">Places Nearby</label>
+								<label class="input">
+									
+									<input type="text" name="nearBy" id="" >
+								</label>
+							</div>
+							
+							<div class="col-md-12">
+								<label class="label">Room Type</label>
+								<label class="input">
+									
+									<input type="text" name="roomType" id="" >
+								</label>
+							</div>
+							
+							<div class="col-md-12">
+								<label class="label">Complimentry Breakfast</label>
+								<select class="select" name="compbreak" style="background:#d43c31;">
+									
+									<option value="yes">Yes</option>
+									<option value="no">No</option>
+								</select>
+							</div>
+							
+							<div class="col-md-12">
+								<label class="label">Size</label>
+								<label class="input">
+									
+									<input type="text" name="size" id="" >
+								</label>
+							</div>
+							<div class="col-md-12">
+								<label class="label">Price</label>
+								<label class="input">
+									
+									<input type="text" name="price" id="" >
+								</label>
+							</div>
+							<div class="col-md-12">
+								<label class="label">Available</label>
+								<label class="input">
+									
+									<input type="text" name="available" id="" >
+								</label>
+							</div>
+							
+							<div class="col-md-12">
+								<label class="label">Beds</label>
+								<label class="input">
+									
+									<input type="text" name="beds" id="" >
+								</label>
+							</div>
+							<div class="col-md-12">
+								<label class="label">Bed Type</label>
+								<label class="input">
+									
+									<input type="text" name="bedtype" id="" >
+								</label>
+							</div>
+							<div class="col-md-12">
+								<label class="label">Sold</label>
+								<label class="input">
+									
+									<input type="text" name="sold" id="" >
+								</label>
+							</div>
+							
+							
+							<div class="col-md-12">
+								<label class="label">MaxOccupants</label>
+								<label class="input">
+									
+									<input type="text" name="maxoccupants" id="" >
+								</label>
+							</div>
+							
+							
+							<div class="col-md-12">
+								<label class="label">Ammenities</label>
+								<label class="input">
+									
+									<input type="text" name="ammentities" id="" >
+								</label>
+							</div>
+							
+							<div class="col-md-12">
+								<label class="label">Images</label>
+								<label class="input">
+									
+									<input type="text" name="images" id="" >
+								</label>
+							</div>
+							
+							<div class="col col-3">
+								<button type="submit" class="btn-u btn-u-lg btn-u-upper">Add</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Search Tours Section -->
+    
+<!-- Footer Section -->
+	<div class="footer g-pt-40 g-pb-40">
+		<div class="container">
+			<div class="g-display-table">
+				<div class="g-display-td g-text-middle page-scroll"><a href="#body" class="footer-logo">SmartBooking</a></div>
+				<div class="g-display-td g-text-middle text-right g-pt-10">&copy; 2017 All right reserved. Deelopment by <a href="#">Team #08</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- End Footer Section -->
+</main>
+
+    
+</body>
+</html>
